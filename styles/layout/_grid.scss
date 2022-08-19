@@ -1,0 +1,20 @@
+/**
+ * Grid
+ */
+
+// import SASS:Math function
+@use 'sass:math';
+
+
+/*
+ * Loop over 12 Columns With $i
+ * Set Width of Column to Total Amount of Columns
+ */
+@for $i from 1 through 12 {
+    $width: math.percentage($i/12);
+
+    // idicate specific width to specific column—width
+    .col-#{$i} {
+        width: $width;
+    }
+}

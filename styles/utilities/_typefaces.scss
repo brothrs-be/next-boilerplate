@@ -1,0 +1,51 @@
+/**
+ * Typefaces
+ */
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Thin.otf");
+    font-style: normal;
+    font-weight: 100;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Light.otf");
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Regular.otf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Medium.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Bold.otf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url("/fonts/FKGroteskTrial-Black.otf");
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+}

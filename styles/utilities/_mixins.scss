@@ -1,0 +1,28 @@
+/**
+ * Mixins
+ */
+@use "./variables"as vars;
+
+//
+@mixin space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin layout-padding($vertical) {
+    padding: $vertical vars.$layout-padding-x;
+}
+
+@mixin padding($vertical, $horizontal) {
+    padding: $vertical $horizontal;
+}

@@ -2,6 +2,10 @@
 
 const routes = {
     Home: `/`,
+
+    /** Account */
+    Login: `/account/login`,
+    Register: `/account/register`,
 }
 
 const route = (path, options = {}) => {

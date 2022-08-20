@@ -1,0 +1,31 @@
+/**
+ * Typography
+ */
+
+@use "../utilities/variables"as vars;
+
+* {
+    font-family: Grotesk;
+    color: vars.$dark;
+}
+
+p,
+button {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+}
+
+h5,
+h6 {
+    font-weight: 300;
+}

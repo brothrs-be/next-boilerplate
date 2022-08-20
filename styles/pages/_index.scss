@@ -1,0 +1,9 @@
+/**
+ * Non-page specific
+ */
+
+@use "../utilities/variables"as vars;
+
+body {
+    background: vars.$primary;
+}
